@@ -3,6 +3,7 @@
 body {
     background-color: #a9d7d1;
     font-family: Raleway, sans-serif;
+    
 }
 
 h1{
@@ -18,7 +19,8 @@ form {
     padding-top: 10px;
     background-color: white;
     margin-left: 15vw;
-    margin-right: 15vw; 
+    margin-right: 15vw;
+    
 }
 
 #personal-data{
@@ -63,4 +65,24 @@ form {
     
 }
 
+/* ocupation */
 
+#ocupation{
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border:green 1px solid;    */
+}
+
+#ocupation label {
+    margin-left: 3.0vw;
+    margin-right: 1.4vw;
+}
+
+#ocupation select {
+    height: 4vh;
+    width: 10vw;
+    background-color: #c0c0c0;
+    
+}
