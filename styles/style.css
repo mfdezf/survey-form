@@ -110,7 +110,7 @@ form {
     display: flex;
     flex-direction: column;
     width: 20vw;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 /* most-like */
@@ -139,5 +139,28 @@ form {
     
 }
 
+/* for-improve */
 
+#for-improve {
+    /* border:green 1px solid; */
+    height: 40vh;
+    display: flex;
+    flex-direction: row; 
+    /* justify-content: center; */
+    
+}
+
+#for-improve .label-for-improve {
+    /* border:red 1px solid;  */
+    width: 27vw;
+    text-align: right;
+    padding-right: 1.3vw;
+}
+
+#for-improve .options-for-improve {
+    /* border: blue 1px solid; */
+    display: flex;
+    flex-direction: column;     
+    justify-content: space-around;   
+}
 
