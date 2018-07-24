@@ -77,7 +77,7 @@ form {
 
 #ocupation label {
     margin-left: 3.0vw;
-    margin-right: 1.4vw;
+    margin-right: 1.5vw;
 }
 
 #ocupation select {
@@ -86,3 +86,31 @@ form {
     background-color: #c0c0c0;
     
 }
+
+/* recomendation */
+
+#recomendation {
+    /* border:green 1px solid; */
+    height: 10vh;
+    display: flex;
+    flex-direction: row; 
+    /* justify-content: center; */
+    
+}
+
+#recomendation  .label-recomendacion {
+    /* border:red 1px solid;  */
+    width: 27vw;
+    text-align: right;
+    padding-right: 1.3vw;
+}
+
+#recomendation .options-recomendation {
+    /* border: blue 1px solid; */
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    justify-content: space-around
+}
+
+
