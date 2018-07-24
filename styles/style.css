@@ -184,3 +184,21 @@ form {
     /* border: blue solid 1px; */
     width: 20vw;
 }
+
+#submit{
+    /* border: green solid 1px; */
+    text-align: center;
+    height: 10vh;
+}
+
+#submit input {
+    /* border: red solid 1px; */
+    border-radius: 4px; 
+    height: 5vh;
+    margin-top: 2.7vh;
+    width: 7vw;;
+    background-color: #59ace0;
+    color: white;
+    font-size: 1rem;
+    
+}
