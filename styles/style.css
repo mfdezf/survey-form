@@ -113,4 +113,31 @@ form {
     justify-content: space-around
 }
 
+/* most-like */
+
+#most-like {
+    /* border: green solid 1px; */
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+#most-like label {
+    /* border:  red solid 1px; */
+    margin-left: 3.0vw;
+    margin-right: 1.6vw;
+    padding-left: 8.4vw;
+}
+
+#most-like select {
+    /* border:  blue solid 1px; */
+    height: 4vh;
+    width: 10vw;
+    background-color: #c0c0c0;
+    
+}
+
+
 
