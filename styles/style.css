@@ -73,7 +73,6 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center
 }
 
 #ocupation .message{
@@ -99,10 +98,9 @@ form {
 }
 
 #ocupation select {
+    border: #c0c0c0 solid 1px;
     height: 4vh;
     width: 10vw;
-    border: #c0c0c0 solid 1px;
-    
 }
 
 /* recomendation */
@@ -135,65 +133,88 @@ form {
     border: orange solid 1px;
     display: flex;
     flex-direction: column;
-    width: 25vw;
     justify-content: space-around;
+    width: 25vw;
+    
 }
 
 /* most-like */
 
 #most-like {
-    /* border: green solid 1px; */
+    border: green solid 1px;
     height: 8vh;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    
+    justify-content: center;
+
 }
 
-#most-like label {
-    /* border:  red solid 1px; */
+#most-like .message{
+    border: blue solid 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 1.5vw;
+    width: 25vw;
+}
+
+#most-like .message label{
+    border: pink solid 1px;
+    height: 5vh;   
+}
+
+#most-like .data{
+    border: orange solid 1px;
+    width: 25vw;
+}
+
+#most-like .data select {
+    border: #c0c0c0 solid 1px;
+    height: 4vh;
+    width: 10vw;
+} 
+
+/* #most-like label {
+    border:  red solid 1px; 
     margin-left: 3.0vw;
     margin-right: 1.6vw;
     padding-left: 8.4vw;
-}
+} */
 
-#most-like select {
-    /* border:  blue solid 1px; */
+/* #most-like .data select {
     height: 4vh;
     width: 10vw;
     background-color: #c0c0c0;
-    
-}
+} */
 
 /* for-improve */
-
+/* 
 #for-improve {
-    /* border:green 1px solid; */
+    border:green 1px solid;
     height: 40vh;
     display: flex;
     flex-direction: row; 
-    /* justify-content: center; */
-    
 }
 
 #for-improve .label-for-improve {
-    /* border:red 1px solid;  */
+    border:red 1px solid; 
     width: 27vw;
     text-align: right;
     padding-right: 1.3vw;
 }
 
 #for-improve .options-for-improve {
-    /* border: blue 1px solid; */
+    border: blue 1px solid;
     display: flex;
     flex-direction: column;     
     justify-content: space-around;   
-}
+} */
 
 /* suggestions */
 
+/* 
 #suggestions {
-    /* border: green solid 1px; */
+    border: green solid 1px;
     display: flex;
     flex-direction: row;
     height: 8vh;
@@ -202,12 +223,12 @@ form {
 }
 
 #suggestions label{
-    /* border: red solid 1px; */
+    border: red solid 1px;
     
 }
 
 #suggestions textarea{
-    /* border: blue solid 1px; */
+    border: blue solid 1px;
     width: 20vw;
 }
 
@@ -218,7 +239,7 @@ form {
 }
 
 #submit input {
-    /* border: red solid 1px; */
+    border: red solid 1px;
     border-radius: 4px; 
     height: 5vh;
     margin-top: 2.7vh;
@@ -227,4 +248,4 @@ form {
     color: white;
     font-size: 1rem;
     
-}
+}  */
