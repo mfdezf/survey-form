@@ -16,34 +16,58 @@
         
         <div id="personal-data">
             
-            <div>    
-                <label for="name">&nbsp;*Name: </label> 
-                <input id="name-label" type="text" name="name" placeholder="Enter your name" size="200" required >
+            <div class="row">
+                <div class="message">
+                    <label for="name">&nbsp;*Name: </label> 
+                </div>    
+                <div class="data">
+                    <input id="name-label" type="text" name="name" placeholder="Enter your name" required >
+                </div>
             </div>    
 
-            <div>
-                <label for="email">&nbsp;&nbsp;*Email: </label>
-                <input id="email-label" type="email" name="email" placeholder="Enter your email" size="200" required >
+            <div class="row">
+                
+                <div class="message">
+                    <label for="email">&nbsp;&nbsp;*Email: </label>
+                </div>
+
+                <div  class="data" >
+                    <input id="email-label" type="email" name="email" placeholder="Enter your email" required >
+                </div>
+
             </div>
 
-            <div>
-                <label id= "age" for="number">*Age: </label>
-                <input id="number-label" type="number" name="number" placeholder="Age" size="200" required >
+            <div class="row">
+                
+                <div class="message">
+                    <label id= "age" for="number">*Age: </label>
+                </div>
+                 
+                <div class="data">
+                    <input id="number-label" type="number" name="number" placeholder="Age"  required >
+                </div>
+            
             </div>
 
         </div>
         
         <div id="ocupation">
-
-            <label for="dropdown">Which option best describes your current role? </label>
             
-            <select id="dropdown">
-                <option value="student">Student</option>
-                <option value="full-time-job">Full Time Job</option>
-                <option value="full-time-learner">Full Time Learner</option>
-                <option value="perfer-not-to-say">Perfer not to say</option>
-                <option value="other">Other</option>
-            </select>
+            <div class="message">
+                <label for="dropdown">Which option best describes your current role? </label>
+            </div>
+            
+            <div class="data">
+                
+                <select id="dropdown">
+                    <option value="student">Student</option>
+                    <option value="full-time-job">Full Time Job</option>
+                    <option value="full-time-learner">Full Time Learner</option>
+                    <option value="perfer-not-to-say">Perfer not to say</option>
+                    <option value="other">Other</option>
+                </select>
+        
+            </div>
         
         </div>
 
