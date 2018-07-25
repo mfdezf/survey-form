@@ -108,26 +108,34 @@ form {
 /* recomendation */
 
 #recomendation {
-    /* border:green 1px solid; */
-    height: 10vh;
+    border:green 1px solid;
     display: flex;
     flex-direction: row; 
-    /* justify-content: center; */
+    justify-content: center;
+    height: 10vh;
     
 }
 
-#recomendation  .label-recomendacion {
-    /* border:red 1px solid;  */
-    width: 27vw;
-    text-align: right;
-    padding-right: 1.3vw;
+#recomendation .message{
+    border: blue solid 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 1.5vw;
+    width: 25vw;
 }
 
-#recomendation .options-recomendation {
-    /* border: blue 1px solid; */
+#recomendation .message label{
+    border: pink solid 1px;
+    text-align: right; 
+    height: 5vh;
+}
+
+#recomendation .data {
+    border: orange solid 1px;
     display: flex;
     flex-direction: column;
-    width: 20vw;
+    width: 25vw;
     justify-content: space-around;
 }
 
