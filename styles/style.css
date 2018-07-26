@@ -178,7 +178,7 @@ form {
  
 #for-improve {
     border:green 1px solid;
-    height: 40vh;
+    height: 45vh;
     display: flex;
     flex-direction: row; 
     justify-content: center;
@@ -210,25 +210,39 @@ form {
 
 /* suggestions */
 
-/* #suggestions {
+#suggestions {
     border: green solid 1px;
     height: 12vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+        
+}
+
+#suggestions .message{
+    border:blue 1px solid; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 1.5vw;
+    padding-top: 1.9vh;
+    width: 25vw; 
+}
+
+#suggestions .message label{
+    border: pink solid 1px;
+    height: 5vh;
+    text-align: right;
     
 }
 
-#suggestions label{
-    border: red solid 1px;
-    
+#suggestions .data{
+    border: orange 1px solid;
+    display: flex;
+    flex-direction: column;     
+    justify-content: space-around;   
+    width: 25vw; 
 }
-
-#suggestions textarea{
-    border: blue solid 1px;
-    width: 20vw;
-} */
 
 /*
 #submit{
