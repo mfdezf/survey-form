@@ -174,52 +174,50 @@ form {
     width: 10vw;
 } 
 
-/* #most-like label {
-    border:  red solid 1px; 
-    margin-left: 3.0vw;
-    margin-right: 1.6vw;
-    padding-left: 8.4vw;
-} */
-
-/* #most-like .data select {
-    height: 4vh;
-    width: 10vw;
-    background-color: #c0c0c0;
-} */
-
 /* for-improve */
-/* 
+ 
 #for-improve {
     border:green 1px solid;
     height: 40vh;
     display: flex;
     flex-direction: row; 
+    justify-content: center;
 }
 
-#for-improve .label-for-improve {
-    border:red 1px solid; 
-    width: 27vw;
+#for-improve .message{
+    border:blue 1px solid; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 1.5vw;
+    width: 25vw;   
+}
+
+#for-improve .message label{
+    border: pink solid 1px;
+    height: 5vh;
     text-align: right;
-    padding-right: 1.3vw;
 }
 
-#for-improve .options-for-improve {
-    border: blue 1px solid;
+
+#for-improve .data {
+    border: orange 1px solid;
     display: flex;
     flex-direction: column;     
     justify-content: space-around;   
-} */
+    width: 25vw;
+} 
 
 /* suggestions */
 
-/* 
-#suggestions {
+/* #suggestions {
     border: green solid 1px;
+    height: 12vh;
     display: flex;
     flex-direction: row;
-    height: 8vh;
-    padding: 2vh;
     justify-content: center;
+    
+    
 }
 
 #suggestions label{
@@ -230,8 +228,9 @@ form {
 #suggestions textarea{
     border: blue solid 1px;
     width: 20vw;
-}
+} */
 
+/*
 #submit{
     border: green solid 1px;
     text-align: center;
