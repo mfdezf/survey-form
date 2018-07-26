@@ -1,4 +1,4 @@
-/* personal-data section */
+/* ---------------------------personal-data section -------------------------------------*/
 
 body {
     background-color: #a9d7d1;
@@ -24,7 +24,7 @@ form {
 }
 
 #personal-data{
-    border: green solid 1px;
+    /* border: green solid 1px; */
     height: 25vh;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@ form {
 }
 
 #personal-data .row{
-    border: magenta solid 1px;
+    /* border: magenta solid 1px; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -41,7 +41,7 @@ form {
 }
 
 #personal-data .row .message {
-    border: blue solid 1px;
+    /* border: blue solid 1px; */
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -51,11 +51,11 @@ form {
 }
 
 #personal-data .row .message label {
-    border: pink solid 1px;
+    /* border: pink solid 1px; */
 }
 
 #personal-data .row .data {
-    border: orange solid 1px;
+    /* border: orange solid 1px; */
     width: 25vw;
     
 }
@@ -65,10 +65,10 @@ form {
     height: 3vh;
 }
 
-/* ocupation */
+/* -------------------------------------------ocupation-------------------------------------------- */
 
 #ocupation{
-    border: green solid 1px;
+    /* border: green solid 1px; */
     height: 8vh;
     display: flex;
     flex-direction: row;
@@ -76,7 +76,7 @@ form {
 }
 
 #ocupation .message{
-    border: blue solid 1px;
+    /* border: blue solid 1px; */
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -85,15 +85,15 @@ form {
 }
 
 #ocupation .message label {
-    border: pink solid 1px;
+    /* border: pink solid 1px; */
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    text-align: right;
     height: 4vh;
 }
 
 #ocupation .data{
-    border: orange solid 1px;
+    /* border: orange solid 1px; */
     width: 25vw;
 }
 
@@ -103,10 +103,10 @@ form {
     width: 10vw;
 }
 
-/* recomendation */
+/*----------------------------------------recomendation---------------------------------------------*/
 
 #recomendation {
-    border:green 1px solid;
+    /* border:green 1px solid; */
     display: flex;
     flex-direction: row; 
     justify-content: center;
@@ -115,7 +115,7 @@ form {
 }
 
 #recomendation .message{
-    border: blue solid 1px;
+    /* border: blue solid 1px; */
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -124,13 +124,13 @@ form {
 }
 
 #recomendation .message label{
-    border: pink solid 1px;
+    /* border: pink solid 1px; */
     text-align: right; 
     height: 5vh;
 }
 
 #recomendation .data {
-    border: orange solid 1px;
+    /* border: orange solid 1px; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -138,10 +138,10 @@ form {
     
 }
 
-/* most-like */
+/* -----------------------------------------------------most-like-------------------------------------------- */
 
 #most-like {
-    border: green solid 1px;
+    /* border: green solid 1px; */
     height: 8vh;
     display: flex;
     flex-direction: row;
@@ -150,34 +150,36 @@ form {
 }
 
 #most-like .message{
-    border: blue solid 1px;
+    /* border: blue solid 1px; */
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    padding-top: 2vh;
     padding-right: 1.5vw;
     width: 25vw;
 }
 
 #most-like .message label{
-    border: pink solid 1px;
+    /* border: pink solid 1px; */
     height: 5vh;   
 }
 
 #most-like .data{
-    border: orange solid 1px;
+    /* border: orange solid 1px; */
     width: 25vw;
 }
 
 #most-like .data select {
+    margin-top: 2vh;
     border: #c0c0c0 solid 1px;
     height: 4vh;
     width: 10vw;
 } 
 
-/* for-improve */
+/* ---------------------------------------------------------for-improve---------------------------------------- */
  
 #for-improve {
-    border:green 1px solid;
+    /* border:green 1px solid; */
     height: 45vh;
     display: flex;
     flex-direction: row; 
@@ -185,7 +187,7 @@ form {
 }
 
 #for-improve .message{
-    border:blue 1px solid; 
+    /* border:blue 1px solid;  */
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -194,24 +196,24 @@ form {
 }
 
 #for-improve .message label{
-    border: pink solid 1px;
+    /* border: pink solid 1px; */
     height: 5vh;
     text-align: right;
 }
 
 
 #for-improve .data {
-    border: orange 1px solid;
+    /* border: orange 1px solid; */
     display: flex;
     flex-direction: column;     
     justify-content: space-around;   
     width: 25vw;
 } 
 
-/* suggestions */
+/* -----------------------------------------------suggestions-------------------------------------------------- */
 
 #suggestions {
-    border: green solid 1px;
+    /* border: green solid 1px; */
     height: 12vh;
     display: flex;
     flex-direction: row;
@@ -220,7 +222,7 @@ form {
 }
 
 #suggestions .message{
-    border:blue 1px solid; 
+    /* border:blue 1px solid;  */
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -230,29 +232,28 @@ form {
 }
 
 #suggestions .message label{
-    border: pink solid 1px;
+    /* border: pink solid 1px; */
     height: 5vh;
     text-align: right;
     
 }
 
 #suggestions .data{
-    border: orange 1px solid;
+    /* border: orange 1px solid; */
     display: flex;
     flex-direction: column;     
     justify-content: space-around;   
     width: 25vw; 
 }
 
-
 #submit{
-    border: green solid 1px;
+    /* border: green solid 1px; */
     text-align: center;
     height: 10vh;
 }
 
 #submit input {
-    border: green solid 1px;
+    /* border: green solid 1px; */
     border-radius: 4px; 
     height: 5vh;
     margin-top: 2.7vh;
