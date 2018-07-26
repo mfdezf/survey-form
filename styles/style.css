@@ -244,7 +244,7 @@ form {
     width: 25vw; 
 }
 
-/*
+
 #submit{
     border: green solid 1px;
     text-align: center;
@@ -252,7 +252,7 @@ form {
 }
 
 #submit input {
-    border: red solid 1px;
+    border: green solid 1px;
     border-radius: 4px; 
     height: 5vh;
     margin-top: 2.7vh;
@@ -261,4 +261,4 @@ form {
     color: white;
     font-size: 1rem;
     
-}  */
+} 
