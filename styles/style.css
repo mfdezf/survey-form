@@ -246,13 +246,15 @@ form {
     width: 25vw; 
 }
 
-#submit{
+/*-------------------------------------------submit ------------------------------------------------------*/
+
+#submit2{
     /* border: green solid 1px; */
     text-align: center;
     height: 10vh;
 }
 
-#submit input {
+#submit2 button {
     /* border: green solid 1px; */
     border-radius: 4px; 
     height: 5vh;

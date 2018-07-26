@@ -20,21 +20,21 @@
             
             <div class="row">
                 <div class="message">
-                    <label for="name">&nbsp;*Name: </label> 
+                    <label id="name-label" for="name">&nbsp;*Name: </label> 
                 </div>    
                 <div class="data">
-                    <input id="name-label" type="text" name="name" placeholder="Enter your name" required >
+                    <input id="name" type="text" name="name" placeholder="Enter your name" required >
                 </div>
             </div>    
 
             <div class="row">
                 
                 <div class="message">
-                    <label for="email">&nbsp;&nbsp;*Email: </label>
+                    <label id="email-label" for="email">&nbsp;&nbsp;*Email: </label>
                 </div>
 
                 <div  class="data" >
-                    <input id="email-label" type="email" name="email" placeholder="Enter your email" required >
+                    <input id="email" type="email" name="email" placeholder="Enter your email" required >
                 </div>
 
             </div>
@@ -42,11 +42,11 @@
             <div class="row">
                 
                 <div class="message">
-                    <label id= "age" for="number">*Age: </label>
+                    <label id="number-label" id="age" for="age">*Age: </label>
                 </div>
                  
                 <div class="data">
-                    <input id="number-label" type="number" name="number" placeholder="Age"  required >
+                    <input id="number" type="number" name="age" placeholder="Age" min="0" max="150"  >
                 </div>
             
             </div>
@@ -82,17 +82,17 @@
             <div class="data">
                 
                 <div>
-                    <input type="radio" id="definitely" name="recomendation" />
+                    <input type="radio" id="definitely" name="recomendation" value="1" />
                     <label for="definitely">Definitely</label>
                 </div>
 
                 <div>
-                    <input type="radio" id="maybe" name="recomendation" />
+                    <input type="radio" id="maybe" name="recomendation" value="2" />
                     <label for="maybe">Maybe</label>
                 </div>
 
                 <div>
-                    <input type="radio" id="not-sure" name="recomendation" />
+                    <input type="radio" id="not-sure" name="recomendation" value="3" />
                     <label for="not-sure">Not sure</label>
                 </div>    
 
@@ -191,9 +191,9 @@
         
         </div>
 
-        <div id="submit">
+        <div id="submit2">
 
-                <input id="submit" type="submit" value="Submit">
+                <button id="submit" type="submit">Submit</button>
         
         </div>
 
